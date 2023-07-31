@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// A variable named `name` is declared and assigned the string value 'Dane'. 
+//We then check if the `name` variable is exactly equal to the string 'Mary'. 
+//If it is, we log 'Hi, Mary!' to the console. If `name` is not 'Mary', we log 'How do you do?' to the console. 
 
 //CODE
 /*
@@ -45,10 +44,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Here, we declare a variable `secret` without a value, and another variable `code` with the value 123. 
+//If `code` is exactly equal to 123, which it is in this case, we assign the string 'super' to `secret` 
+//and double the value of `code`. After that, we check if `code` is greater than 250. 
+//If true, which is not the case here (as `code` is now 246), we assign the string 'duper' to `secret`. 
+//At the end, we log the current value of `secret`, which is 'super', to the console.
 
 //CODE
 /*
@@ -70,10 +70,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare three variables: `isStudent` (a Boolean with a value of true), `age` (a number with a value of 34), 
+//and `zip` (a number with a value of 55407). We first check if `isStudent` is true and if `zip` is greater than 80000.
+// If both are true, we log 'You're a student on the West Coast!' to the console. 
+//However, in this case, since `zip` is not greater than 80000, this condition is not met. 
+//We then check if `isStudent` is false or if `age` is less than 30. 
+//If either condition is true, we log 'What are your hobbies?' to the console. 
+//As both conditions are false in this instance, we move to the next condition. 
+//We check if `isStudent` is true. If it is, which is the case here, we log 'Welcome to Prime!' to the console.
+// The final else block acts as a catch-all, logging 'How about the weather?' to the console if none of the above conditions are met.
+// In this case, it doesn't execute, because one of the previous conditions was met.
 
 //CODE
 /*
