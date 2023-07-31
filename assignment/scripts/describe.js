@@ -142,6 +142,8 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX - Also set colorTwo to 'purple'
+  // should be colorTwo = 'purple';
 }
 */
 
@@ -152,7 +154,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// Fix: Change || to && operator
+//should be if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -165,10 +168,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
-if(minAge <= age) {
-  console.log('no entry');
+// Fix: the variable age should come first then the operator should be changed to greater than or equal to
+// should be if(age >= minAge)
+if(minAge <= age) { 
+  // Fix: Change 'no entry' to 'enter' should be console.log('enter');
+  console.log('no entry'); 
 } else {
+  // Fix: Change 'enter' to 'no entry' should be console.log('no entry');
   console.log('enter');
 }
 */
