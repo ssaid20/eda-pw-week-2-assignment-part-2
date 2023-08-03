@@ -28,7 +28,9 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // A variable named `name` is declared and assigned the string value 'Dane'. 
 //We then check if the `name` variable is exactly equal to the string 'Mary'. 
-//If it is, we log 'Hi, Mary!' to the console. If `name` is not 'Mary', we log 'How do you do?' to the console. 
+//If it is, we log 'Hi, Mary!' to the console. If `name` is not 'Mary',
+// we log 'How do you do?' to the console.
+// Since name isn't marry it will log out How do you do? 
 
 //CODE
 /*
@@ -136,10 +138,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//Fix- Assign colorOne to blue
+// Should be let colorOne = blue;
 let colorOne = 'red';
+//Fix- Assign colorTwo to red
+// Should be let colorTwo = red;
 let colorTwo = 'blue';
 let mix = true;
 
+// Fix refactor, should be if (mix)
 if (mix === true) {
   colorOne = 'purple';
   // FIX - Also set colorTwo to 'purple'
